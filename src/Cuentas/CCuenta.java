@@ -68,6 +68,13 @@ public class CCuenta {
     {
     }
 
+    /**
+     *
+     * @param nom
+     * @param cue
+     * @param sal
+     * @param tipo
+     */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
@@ -75,6 +82,10 @@ public class CCuenta {
         saldo=sal;
     }
 
+    /**
+     *
+     * @return
+     */
     public double estado()
     {
         return getSaldo();
